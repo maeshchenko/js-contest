@@ -48,6 +48,18 @@ export default (env:IBuildEnv): webpack.Configuration => {
                         "sass-loader",
                     ],
                 },
+                {
+                    test: /\.svg$/,
+                    use: ['@svgr/webpack'],
+                },
+                {
+                    test: /\.(png|jpe?g|gif|woff|woff2|tff|otf)$/i,
+                    use: [
+                        {
+                            loader: 'file-loader',
+                        },
+                    ],
+                },
             ],
 
         },
