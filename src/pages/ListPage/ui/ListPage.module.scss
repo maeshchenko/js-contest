@@ -1,0 +1,19 @@
+.ListPage {
+  &__list {
+    display: grid;
+    border: 2px solid #00000014;
+    border-radius: 8px;
+  }
+
+  &__list-item {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50px auto;
+    padding: 8px;
+    border-bottom: 2px solid #f5f5dcff;
+
+    &:hover {
+      background-color: #f5f5dcff;
+    }
+  }
+}
