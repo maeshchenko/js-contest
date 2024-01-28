@@ -25,7 +25,7 @@ const sendCode = async (code: string) => {
     headers: {
       "content-type": "application/json",
       "Content-Type": "application/json",
-      "X-RapidAPI-Key": "a1407edb09msha459c6d47b6e3efp1e0501jsn93d290c0cc2e",
+      "X-RapidAPI-Key": "g",
       "X-RapidAPI-Host": "judge0-ce.p.rapidapi.com",
     },
     body: JSON.stringify({
